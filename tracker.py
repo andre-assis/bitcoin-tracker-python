@@ -82,7 +82,7 @@ def main():
     limite = 300000 # Definir o limite aqui
     monitor_de_preco_bitcoin(limite, csvPath)
 
-schedule.every(1).minutes.do(main)
+schedule.every(30).minutes.do(main)
 
 while True:
     schedule.run_pending()
