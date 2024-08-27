@@ -1,4 +1,4 @@
-# bitcoin-tracker-python
+# Monitoramento do Preço do Bitcoin com Alerta por Email
 
 ## Descrição
 Este projeto é uma solução de RPA (Automação de Processos Robóticos) que monitora o preço do Bitcoin em tempo real e envia um alerta por email caso o valor fique abaixo de um limite definido. O preço é obtido através da API da CoinGecko, e a verificação ocorre a cada 30 minutos.
